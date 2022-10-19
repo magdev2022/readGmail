@@ -18,8 +18,8 @@ func main() {
 	// Don't forget to logout
 	defer c.Logout()
 	// Login
-	username := "jin1991919@gmail.com"
-	password := "mqspwumvjpybzehy"
+	username := "example@gmail.com"
+	password := "password"
 	if err := c.Login(username, password); err != nil {
 		fmt.Println(err)
 	}

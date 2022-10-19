@@ -1,7 +1,7 @@
 const Imap = require('imap');
 const { simpleParser } = require('mailparser');
-const username = "jin1991919@gmail.com"
-const password = "mqspwumvjpybzehy"
+const username = "example.com"
+const password = "password"
 var imapConfig = {
     user: username,
     password: password,

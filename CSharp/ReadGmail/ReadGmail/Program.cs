@@ -12,8 +12,8 @@ namespace ReadGmail
        
         static void Main(string[] args)
         {
-            string username = "jin1991919@gmail.com";
-            string password = "mqspwumvjpybzehy";
+            string username = "example@gmail.com";
+            string password = "passsword";
             MailRepository mailBox;
             Console.WriteLine("Connecting MailBox....");
             //connect Gmail

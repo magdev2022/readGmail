@@ -4,8 +4,8 @@ import email
 server = "imap.gmail.com"
 imap = imaplib.IMAP4_SSL(server)
 
-username = "jin1991919@gmail.com"
-password = "mqspwumvjpybzehy"
+username = "example@gmail.com"
+password = "password"
 
 imap.login(username, password)
 res, messages = imap.select('Inbox')
